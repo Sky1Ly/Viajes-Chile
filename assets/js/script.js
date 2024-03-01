@@ -15,3 +15,15 @@ $(document).ready(function () {
         }
     });
 });
+
+/**
+ * Tooltip
+ */
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+
+document.getElementById('btn-submit').onclick = function(){
+    alert('Se ha enviado el formulario');
+}
